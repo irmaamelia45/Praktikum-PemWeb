@@ -1,0 +1,96 @@
+/* Styling dasar */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2559a5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-web{
+    padding: 50px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 50%;
+    margin: 50px auto;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+}
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+.password-strength {
+    height: 5px;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.password-weak { background: red; }
+.password-medium { background: orange; }
+.password-strong { background: green; }
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.checkbox-container input {
+    margin-right: 8px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+.tooltip {
+    font-size: 0.85em;
+    color: #777;
+    margin-bottom: 10px;
+}
+.show-password {
+    font-size: 0.85em;
+    cursor: pointer;
+    color: #007bff;
+    display: block;
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
